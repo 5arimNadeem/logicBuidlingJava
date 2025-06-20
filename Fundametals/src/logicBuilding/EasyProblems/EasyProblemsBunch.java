@@ -9,6 +9,14 @@ public class EasyProblemsBunch {
         int a;
         Scanner sc = new Scanner(System.in);
         a = sc.nextInt();
+        for(int i = 2; i < a; i++){
+            if(a % i == 0){
+                System.out.println("The number is not prime");
+                break;
+            }else{
+                System.out.println("The number is prime");
+            }
+        }
 
 //        if
 
