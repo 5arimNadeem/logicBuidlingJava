@@ -6,6 +6,7 @@ public class EasyProblemsBunch {
 
 //        i have made the separte files for the problems so that when will be doing the revision it will  be easy for me
 //        to get ahead.
+
 //        1. Check if a Number is Prime
 //        if
 
