@@ -7,19 +7,6 @@ public class EasyProblemsBunch {
 //        i have made the separte files for the problems so that when will be doing the revision it will  be easy for me
 //        to get ahead.
 //        1. Check if a Number is Prime
-
-        int a;
-        Scanner sc = new Scanner(System.in);
-        a = sc.nextInt();
-        for(int i = 2; i < a; i++){
-            if(a % i == 0){
-                System.out.println("The number is not prime");
-                break;
-            }else{
-                System.out.println("The number is prime");
-            }
-        }
-
 //        if
 
 
