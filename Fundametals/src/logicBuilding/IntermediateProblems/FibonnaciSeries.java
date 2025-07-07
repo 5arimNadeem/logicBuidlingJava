@@ -8,7 +8,7 @@ public class FibonnaciSeries {
             System.out.print( firstNum + " ; " );
 
             nextNum = firstNum + secondNum;
-
+            
             firstNum = secondNum;
             secondNum = nextNum;
         }
