@@ -10,10 +10,10 @@ public class SumOfNumbers {
         System.out.println("\nEnter a number to find the sum of its digits: ");
 
         Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
+        long number = sc.nextInt();
 
-        int sum = 0;
-        int remainder = 0;
+        long sum = 0;
+        long remainder = 0;
 
         while(number > 0) {
             remainder = number % 10; // Get the last digit
