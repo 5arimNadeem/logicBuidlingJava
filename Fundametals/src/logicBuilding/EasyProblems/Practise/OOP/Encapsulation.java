@@ -1,4 +1,4 @@
-package logicBuilding.EasyProblems.Practise;
+package logicBuilding.EasyProblems.Practise.OOP;
 
 public class Encapsulation {
 

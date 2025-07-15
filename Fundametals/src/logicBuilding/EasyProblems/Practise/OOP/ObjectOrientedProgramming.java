@@ -1,9 +1,6 @@
-package logicBuilding.EasyProblems.Practise;
+package logicBuilding.EasyProblems.Practise.OOP;
 
-import java.util.Objects;
-import java.util.Scanner;
-
-//package logicBuilding.EasyProblems.Practise.NormalObjects;
+//package logicBuilding.EasyProblems.Practise.OOP.NormalObjects;
 public class ObjectOrientedProgramming {
 
     public static void main(String[] args) {

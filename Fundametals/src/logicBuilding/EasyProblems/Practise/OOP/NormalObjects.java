@@ -1,6 +1,4 @@
-package logicBuilding.EasyProblems.Practise;
-
-import java.util.Scanner;
+package logicBuilding.EasyProblems.Practise.OOP;
 
 public class NormalObjects {
 
