@@ -5,10 +5,8 @@ public class Hashing {
         String name = "sam";
         var myNameHashCode = name.hashCode();
         System.out.println("The hashcode for it is : " + myNameHashCode);
-
         for (int i = 0; i < myNameHashCode; i++) {
             System.out.println();
         }
-
     }
 }
