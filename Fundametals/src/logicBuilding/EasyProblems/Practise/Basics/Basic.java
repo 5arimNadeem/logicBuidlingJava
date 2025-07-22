@@ -1,12 +1,18 @@
 package logicBuilding.EasyProblems.Practise.Basics;
 
+import java.lang.reflect.Array;
+
 public class Basic {
 
     public static void main(String[] args) {
-        int[] arr = {2};
+        String[] nofal = {"eyes","nose","hair","14"};
+        int[] nofalsResultMarks = {89,90,95,99};
 
-        for (int oddNum = 0; oddNum < arr[1]; oddNum++) {
-
+//        System.out.println("This is nofal's : " + nofal[0]);
+//        String name = "sarim";
+//        System.out.println(name);
+        for(int i = 0 ; i < nofal.length; i++){
+            System.out.println(nofal[i]);
         }
     }
 }

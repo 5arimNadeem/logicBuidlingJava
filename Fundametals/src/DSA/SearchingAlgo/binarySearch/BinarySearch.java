@@ -1,4 +1,4 @@
-package DSA.SearchingAlgo;
+package DSA.SearchingAlgo.binarySearch;
 
 public class BinarySearch {
 
