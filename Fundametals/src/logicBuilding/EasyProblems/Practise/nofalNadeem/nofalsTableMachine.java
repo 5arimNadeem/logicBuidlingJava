@@ -10,8 +10,7 @@ public class nofalsTableMachine {
     }
 
     public static String[] statements(){
-        String[] statementArr = {"Give me the data: ", "Table number: ", "Where do you want to start the table from : ", "Where do you want to end the table at : "};
-        return statementArr;
+        return new String[]{"Give me the data: ", "Table number: ", "Where do you want to start the table from : ", "Where do you want to end the table at : "};
     }
 
     public static void main(String[] args) {

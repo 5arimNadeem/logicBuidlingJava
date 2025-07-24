@@ -1,6 +1,6 @@
 package logicBuilding.EasyProblems;
 
-class Solution {
+class SolutionOne {
     public int addDigits(int num) {
         if (num == 0) {
             return 0;
