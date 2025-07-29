@@ -1,6 +1,23 @@
 package DSA.SearchingAlgo;
 
+import javax.sound.sampled.Line;
+
 public class LinearSearch {
+
+
+    public int searchForNumber(int[] nofal, int target){
+
+        int nofalsLength = nofal.length;
+
+        for(int choor = 0; choor <= nofalsLength; choor++){
+            if(nofal[choor] == target){
+                return choor;
+            }
+        }
+//        return num;
+
+        return -1;
+    }
 
 
     public int FindNumberInArr(int n){
@@ -58,10 +75,16 @@ public class LinearSearch {
 //        LinearSearch findIndex = new LinearSearch();
 //        var index = findIndex.noAtWhatIndex(9218);
 //        System.out.println(index);
+//
+//        LinearSearch minimumNumberInArr = new LinearSearch();
+//        var number = minimumNumberInArr.findTheMinimumValue();
+//        System.out.println(number);
 
-        LinearSearch minimumNumberInArr = new LinearSearch();
-        var number = minimumNumberInArr.findTheMinimumValue();
-        System.out.println(number);
+
+        int[] nofals = {32,4,2,1,89};
+        LinearSearch ls = new LinearSearch();
+
+        System.out.println("The position of the number that you are finding is : " + ls.searchForNumber(nofals,89));
 
     }
 }
