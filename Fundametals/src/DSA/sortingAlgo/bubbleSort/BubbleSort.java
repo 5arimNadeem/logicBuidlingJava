@@ -1,4 +1,4 @@
-package DSA.SearchingAlgo.bubbleSort;
+package DSA.sortingAlgo.bubbleSort;
 
 import java.util.Arrays;
 
@@ -25,10 +25,10 @@ public class BubbleSort {
                     swapped = true;
                 }
             }
+
             if(!swapped){
                 break;
             }
         }
-
     }
 }

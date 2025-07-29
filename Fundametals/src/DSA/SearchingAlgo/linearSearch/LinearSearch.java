@@ -1,6 +1,4 @@
-package DSA.SearchingAlgo;
-
-import javax.sound.sampled.Line;
+package DSA.SearchingAlgo.linearSearch;
 
 public class LinearSearch {
 
