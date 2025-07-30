@@ -1,4 +1,4 @@
-package DSA.strings;
+package DSA.stringsAndStringBuilders;
 
 public class Strings {
     public static void main(String[] args) {
