@@ -6,7 +6,7 @@ public class BubbleSort {
 
     public static void main(String[] args) {
 //        BubbleSort bubb = new BubbleSort();
-        int array[] = {23,4,5,5,66,6,1};
+        int[] array = {23,4,5,5,66,6,1};
         bubble(array);
         System.out.println(Arrays.toString(array));
     }
